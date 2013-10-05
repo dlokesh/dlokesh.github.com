@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>(what's up)</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Code highlight -->
+        <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
+        <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/solarized_light.min.css">
+        <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+
+    <body>
+
+        <div class="site">
+
+          <div class="header">
+            <h1 class="title"><a href="/">(what's up)</a></h1>
+            <a class="extra" href="/">home</a>
+            <a class="extra" href="/">about</a>            
+          </div>
+
+          {{ content|safe }}
+
+          <div class="footer">
+              © 2013 Lokeshwaran. Powered by <a href="http://github.com/dlokesh/elimai">elimai</a>.
+          </div>
+        </div>
+
+    </body>
+</html>
